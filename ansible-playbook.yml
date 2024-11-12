@@ -12,5 +12,5 @@
   - name : Start Docker Service
     command : sudo systemctl start docker
 
-  - name: Deploy Docker Container
+  - name: Deploy Docker Containers
     command: docker run -itd -p 8084:8081 vickyxlr8/bankapp1:latest
